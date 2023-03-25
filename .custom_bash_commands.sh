@@ -95,90 +95,90 @@ cat <<- _EOF_ > stylesheet.css
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    /* box-sizing: border-box; */
-    } 
-    
-    body {
-		color: white;
-        width: 1440;
-        height: 400vh;
-        background-color: rgb(67,67,67);
-        font-family: sans-serif;
-        font-size: 16px;
-    }
-    
-    a {
-        color: #ff7f00;
-        /* text-decoration: none; */
-    }
+	* {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		/* box-sizing: border-box; */
+		} 
+		
+		body {
+			color: white;
+			width: 1440;
+			height: 400vh;
+			background-color: rgb(67,67,67);
+			font-family: sans-serif;
+			font-size: 16px;
+		}
+		
+		a {
+			color: #ff7f00;
+			/* text-decoration: none; */
+		}
 
-    nav {
-        background: #222;
-    }
-.menu {
-    display: flex;
-    border: 1px solid red;
-    position: relative;
-    align-items: center;
-    justify-content: space-between;
-    background: #222;
-    width: 100%;
-}
+		nav {
+			background: #222;
+		}
+	.menu {
+		display: flex;
+		border: 1px solid red;
+		position: relative;
+		align-items: center;
+		justify-content: space-between;
+		background: #222;
+		width: 100%;
+	}
 
-.menu a {
-    display: block;
-    border: 1px solid red;
-    padding: 15px 20px 15px 20px;
-}
-
-
-
-.menu li a {
-    display: block;
-    
-}
-
-.item {
-
-}
+	.menu a {
+		display: block;
+		border: 1px solid red;
+		padding: 15px 20px 15px 20px;
+	}
 
 
-.item a:hover  {
-    color: #ccc;
-    
-}
 
-.icon:nth-child(2) {
-    margin-right: auto;
-}
+	.menu li a {
+		display: block;
+		
+	}
 
-.icon a:hover {
-    color: #ccc;
-}
+	.item {
 
-.submenu {
-    display: none;
-}
+	}
 
-@media all and (max-width: 860px) {
-    .menu {
-        flex-direction: column;
-    }
 
-    .menu-items {
-        flex-direction: column;
-    }
-    .icon {
-        margin-right: auto;
-    }
-    .item {
-        margin-right: auto;
-    }
-}
+	.item a:hover  {
+		color: #ccc;
+		
+	}
+
+	.icon:nth-child(2) {
+		margin-right: auto;
+	}
+
+	.icon a:hover {
+		color: #ccc;
+	}
+
+	.submenu {
+		display: none;
+	}
+
+	@media all and (max-width: 860px) {
+		.menu {
+			flex-direction: column;
+		}
+
+		.menu-items {
+			flex-direction: column;
+		}
+		.icon {
+			margin-right: auto;
+		}
+		.item {
+			margin-right: auto;
+		}
+	}
 
 
 _EOF_
@@ -406,7 +406,7 @@ cat <<- _EOF_ > README.md
 
 	<div id="top-of-doc"></div>
 	
-	# $1 Review 2022 |
+	# $1 Review |
 	
 	[Popados Github](https://github.com/popados) | [Jump to End](#end-of-doc)
 	

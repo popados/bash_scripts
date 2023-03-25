@@ -1,7 +1,7 @@
 
 <div id="top-of-doc"></div>
 
-# bash-scripts 2022 |
+# bash-scripts 2023 |
 
 [My Github](https://github.com/popados) | [Jump to End](#end-of-doc)
 
